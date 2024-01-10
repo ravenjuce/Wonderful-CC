@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/friend"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:alpha="0.7"
+        tools:context=".activity.mainPage.CheckApplyActivity">
+
+
+        <TextView
+            android:id="@+id/check_apply_tv_tile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_500"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:text="Apply for friends"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <ListView
+            android:id="@+id/check_apply_listview"
+            android:layout_width="418dp"
+            android:layout_height="309dp"
+            android:layout_margin="0dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/check_apply_btn_clear"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="CLEAR ALL"
+            android:background="@drawable/translucent_button"
+
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>

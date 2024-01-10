@@ -1,0 +1,18 @@
+declaration: >-
+  I declare that everything I have submitted in this assignment is entirely our
+  own work, with the following exceptions:
+
+
+code:
+  - comment: "For Room database and image uploading"
+    url: https://www.udemy.com/course/full-android-11-masterclass-course-with-java-53-hours/learn/lecture/27266194
+    licence: fair use
+
+
+members:
+  - name: Wangyi Li
+    uid: u7323052
+  - name: Shiyun Zhu
+    uid: u7041419
+  - name: Chuming Zhang
+    uid: u7267216 

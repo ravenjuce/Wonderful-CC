@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/friend"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:alpha="0.7"
+    tools:context=".activity.normal.AddFriendActivity">
+
+    <TextView
+        android:id="@+id/afText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:text="Add Friend By Name"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/afNameEdit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/translucent_edit"
+        android:gravity="center"
+        android:hint="User Name"
+        android:padding="15dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/afButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Add friends"
+        android:background="@drawable/translucent_button"
+        android:textSize="24dp" />
+</LinearLayout>

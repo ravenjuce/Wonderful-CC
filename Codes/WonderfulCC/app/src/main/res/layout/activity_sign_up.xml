@@ -1,0 +1,68 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/pc"
+android:orientation="vertical"
+android:gravity="center"
+tools:context=".activity.normal.SignUpActivity">
+
+<TextView
+    android:id="@+id/signTitleText"
+    android:layout_width="332dp"
+    android:layout_height="88dp"
+    android:layout_marginTop="-10dp"
+    android:gravity="center"
+    android:text="WonderfulCC"
+    android:textColor="@color/purple_500"
+    android:textSize="50dp"
+    android:textStyle="italic" />
+
+<EditText
+    android:id="@+id/signUserNameEdit"
+    android:layout_width="250dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/translucent_edit"
+    android:hint="User Name"
+
+    android:singleLine="true"
+    android:textSize="24dp" />
+
+<!--password-->
+<EditText
+    android:id="@+id/signPassWordEdit"
+    android:layout_width="250dp"
+    android:layout_height="60dp"
+    android:padding="15dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/translucent_edit"
+    android:hint="Password"
+    android:textSize="24dp"
+    android:maxLength="16"
+    android:singleLine="true"
+    android:inputType="textPassword" />
+
+
+
+<Button
+    android:id="@+id/signsignUpButton"
+    android:layout_width="250dp"
+    android:layout_height="60dp"
+
+    android:textColor="@color/white"
+    android:background="@drawable/translucent_button"
+    android:text="Sign Up"
+    android:textSize="24dp" />
+
+
+
+</LinearLayout>

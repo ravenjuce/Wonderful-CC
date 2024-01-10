@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/friend"
+
+        android:alpha="0.7"
+        tools:context=".activity.mainPage.MessageActivity">
+        <TextView
+            android:id="@+id/messName_tv"
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="@color/teal_700"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/circle_edit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/yellow"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:hint="type in"/>
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"/>
+
+        </LinearLayout>
+
+    </LinearLayout>

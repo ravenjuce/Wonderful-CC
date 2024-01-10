@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.wonderfulcc">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WonderfulCC"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".activity.observer.FollowerNotificationActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.follow.CheckFollowActivity"/>
+        <activity
+            android:name=".activity.follow.CheckFollowActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.normal.HomepageActivity" />
+        <activity
+            android:name=".activity.follow.PostCardActivity"
+            android:exported="true"
+            android:parentActivityName=".activity.posts.MyPostPreviewActivity" />
+        <activity
+            android:name=".activity.mainPage.ExampleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mainPage.CheckApplyActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.mainPage.MePageActivity" />
+        <activity
+            android:name=".activity.mainPage.MePageActivity"
+            android:exported="true"
+            android:parentActivityName=".activity.normal.HomepageActivity" />
+        <activity
+            android:name=".activity.normal.FriendsActivity"
+            android:exported="true"
+            android:parentActivityName=".activity.normal.HomepageActivity" />
+        <activity
+            android:name=".activity.posts.AddPostActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.posts.MyPostPreviewActivity" />
+        <activity
+            android:name=".activity.posts.MyPostPreviewActivity"
+            android:exported="true"
+            android:parentActivityName=".activity.normal.HomepageActivity" />
+        <activity
+            android:name=".activity.normal.SignUpActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.normal.LoginActivity" />
+        <activity
+            android:name=".activity.normal.AddFriendActivity"
+            android:parentActivityName=".activity.normal.FriendsActivity" />
+        <activity
+            android:name=".activity.normal.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.normal.LoginActivity" />
+        <activity android:name=".activity.normal.HomepageActivity" />
+    </application>
+
+</manifest>
