@@ -19,14 +19,11 @@
 
 ## Team Members and Roles
 
-| UID | Name | Role |
-| :--- | :----: | ---: |
-| 7041419 | Shiyun Zhu | Database Designer |
-| 7267216 | Chuming Zhang | Grammar Designer |
-| 7323052 | Wangyi Li | UI Designer |
-| 7353648 | Yifa Ge | Data Structure Designer |
-
-
+| UID | Name |
+| :--- | :----: |
+| 7041419 | Shiyun Zhu |
+| 7267216 | Chuming Zhang |
+| 7323052 | Wangyi Li |
 
 ## Summary of Individual Contributions
 
@@ -229,46 +226,12 @@ Participate in the slide making.
 1) Wrote Wiki on gitlab.
 2) Wrote one minute. 
 
-##### *U7353648, YiFa Ge, I contribute 20% of the code. Here are my contributions:*
 
-**Code Implementation**
-
-```yaml
-  * FollowerNotificationActivity.class(part of it)
-  * public interface Observer(part of it)
-  * public class PostUser(part of it)
-  * public interface Subject(part of it)
-  * public class SharePreferenceUtil(part of it)
-  * public class ExampleInstrumentedTest(part of it)
-  * public final class MyPostsDatabase_Impl(part of it)
-  * the Manual test summary
-  
-```
-
-
-
-
-
-
-**Report writing**
-1) Conflict Resoution Protocol
-2) Application Description
-3) Summary of Known Errors and Bugs
-4) Write the related part about my code.
-
-**Slide preparation**
-
-Participate in the slide making.
-
-**Miscellaneous contributions**
-
-1) Wrote Wiki on gitlab.
-2) Wrote one minute.
 
 
 ## Conflict Resolution Protocol
 
-Step 1: Identify the source of the conflict. 
+Step 1: Identify the source of the conflict. 
 
 Step 2: Communicate and share with each other the reason each solution is identified.
 
